@@ -1,0 +1,64 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic);
+@import url(http://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic,700italic);
+@import url(http://fonts.googleapis.com/css?family=Inconsolata:400,700);
+
+/*** typography ***/
+
+body {
+	font-family: 'PT Sans', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'PT Serif', serif;
+}
+code {
+	font-family: 'Inconsolata', monospace;
+}
+
+/*** layout ***/
+
+
+html {
+	margin: 0;
+}
+body {
+	margin: 0 auto;
+	max-width: 60rem;
+}
+nav {
+	background-color: #eee;
+	border-bottom: 1px solid #ddd;
+	padding: 1rem 4rem;
+}
+nav a {
+	font-weight: bold;
+	text-decoration: none;
+}
+nav span.sep {
+	color: #bbb;
+	margin: 0rem 0.25rem;
+}
+section {
+	padding: 1rem 4rem;
+}
+h1, h2, h3, h4, h5, h6, p, code {
+	line-height: 1.15rem;
+}
+h1, h2, h3, h4 {
+	margin-top: 2rem;
+}
+
+/*** markdown ***/
+
+p code {
+	padding: 0.15rem 0.3rem;
+}
+blockquote {
+
+}
+code {
+	background-color: #eee;
+}
+pre {
+	background-color: #eee;
+	padding: 1rem;
+}

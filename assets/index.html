@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Markdown Server</title>
+	<link rel="stylesheet" href="/assets/css/markdown-plain.css">
+</head>
+<body>
+	<!-- navigation -->
+	<nav>
+		<a href="/">Index</a>
+	</nav>
+
+	<!-- content -->
+	<section>
+		<ul>
+		{{range .}}
+			<li><a href="/markdown/{{.}}">{{.}}</a></li>
+		{{end}}
+		</ul>
+	</section>
+</body>
+</html>

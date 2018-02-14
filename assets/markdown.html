@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Markdown Server</title>
+	<link rel="stylesheet" href="/assets/css/markdown-plain.css">
+</head>
+<body>
+	<!-- navigation -->
+	<nav>
+		<a href="/">Index</a>
+		<span class="sep">❱</span>
+		{{.Filename}}
+	</nav>
+
+	<!-- content -->
+	<section>
+	{{.Content}}
+	</section>
+</body>
+</html>
